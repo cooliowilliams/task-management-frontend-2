@@ -17,9 +17,9 @@ function App() {
         <AuthProvider>
             <Router>
                 <TopBar />
-                <div className="app-container">
+                <div className="flex  overflow-y-hidden  ">
                     {user && <Sidebar />}
-                    <div className="app-content">
+                    <div className=" ">
                         <Routes>
                             <Route path="/" element={user ? <Navigate to="/dashboard" /> : <Login />} />
                             <Route path="/signup" element={<Signup />} />

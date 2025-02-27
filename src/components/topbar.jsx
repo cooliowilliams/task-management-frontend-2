@@ -7,15 +7,15 @@ const TopBar = () => {
     const { user } = useContext(AuthContext);
 
     return (
-        <div className="topbar">
-            <h2>Task Manager</h2>
-            <div className="topbar-menu">
+        <div className="flex justify-between px-[2%] py-7 bg-gray-950 ">
+            <h2 className="font-bold text-[19px] text-white ">Task Manager</h2>
+            <div className=" ">
                 {user ? (
-                    <p>Welcome, {user.name}</p>
+                    <p className="text-white">Welcome, {user.name}</p>
                 ) : (
-                    <div className="dropdown">
-                        <button className="dropbtn">Account</button>
-                        <div className="dropdown-content">
+                    <div className=" ">
+                        <button className=" ">Account</button>
+                        <div className=" ">
                             <Link to="/login">Login</Link>
                             <Link to="/signup">Signup</Link>
                         </div>

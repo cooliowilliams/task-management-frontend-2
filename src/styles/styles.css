@@ -1,4 +1,4 @@
-.signup-container {
+/* .signup-container {
     max-width: 400px;
     margin: auto;
     padding: 20px;
@@ -15,12 +15,12 @@
     margin: 8px 0;
     padding: 10px;
   }
-  /* General Layout */
+ 
   .app-container {
     display: flex;
   }
   
-  /* Sidebar */
+ 
   .sidebar {
     width: 200px;
     height: 100vh;
@@ -55,8 +55,7 @@
     cursor: pointer;
     width: 100%;
   }
-  
-  /* TopBar */
+
   .topbar {
     display: flex;
     justify-content: space-between;
@@ -100,7 +99,7 @@
     display: block;
   }
   
-  /* Login & Signup */
+ 
   .auth-container {
     max-width: 400px;
     margin: auto;
@@ -113,4 +112,4 @@
     width: 100%;
     margin: 10px 0;
     padding: 10px;
-  }
+  } */
